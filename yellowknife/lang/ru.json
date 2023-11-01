@@ -1,7 +1,8 @@
 {
 	"name": "Русский",
 	"authors": [
-		"VidTu"
+		"VidTu",
+		"weepl.lpv"
 	],
 	"id": "ru",
 	"ids": [
@@ -32,9 +33,23 @@
 		"player.null": "Игрок не найден.",
 		"invalidName.case": [
 			"%title%",
-			"Вы должны зайти под ником %valid%, ваш ник - %invalid%."
+			"",
+			"Вы должны зайти под ником %valid%, ваш ник - %invalid%.",
+			"",
+			"Discord: %discord%"
 		],
 		"invalidName.case.title": "Неверный регистр ника.",
+		"invalidName.long": [
+			"%title%",
+			"",
+			"Из-за поддержки авторизации через лицензионные аккаунты",
+			"вы должны либо:",
+			"1. Использовать лицензионный (Mojang) аккаунт.",
+			"2. Обрезать свой ник до 15 или менее символов.",
+			"",
+			"Discord: %discord%"
+		],
+		"invalidName.long.title": "Слишком длинный ник.",
 		"moving.title": "Подождите...",
 		"moving.subtitle": "НЕ двигайтесь!",
 		"moving.chat": "Пожалуйста, подождите и НЕ двигайтесь!",
@@ -45,6 +60,7 @@
 		"captcha.wrong.subtitle": "Попробуйте снова.",
 		"captcha.wrong.chat": "Неверная КАПЧА! Попробуйте снова.",
 		"captcha.failed": "Вы не прошли верификацию!",
+		"captcha.rejoin": "Перезайдите на сервер для завершения верификации.",
 		"register.title": "Регистрация:",
 		"register.subtitle": "/reg <пароль>",
 		"register.usage": "Регистрация: %syntax%",
@@ -135,6 +151,7 @@
 		"link.token": "Неверный токен.",
 		"link.password": "Неверный пароль.",
 		"link": "Напишите Telegram-боту, чтобы привязать аккаунт: %link%",
+		"link.online": "Онлайн-аккаунты не могут быть привязаны.",
 		"link.already": "У вас уже привязан Telegram-аккаунт.",
 		"link.confirm": "Вы уверены, что хотите привязать свой Minecraft-аккаунт к Telegram-аккаунту %account%? %accept%",
 		"link.confirm.tooltip": "Нажмите, чтобы привязать Telegram-аккаунт.",

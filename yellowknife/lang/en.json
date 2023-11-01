@@ -1,7 +1,8 @@
 {
 	"name": "English",
 	"authors": [
-		"VidTu"
+		"VidTu",
+		"weepl.lpv"
 	],
 	"id": "en",
 	"ids": [
@@ -38,9 +39,23 @@
 		"player.null": "Player not found.",
 		"invalidName.case": [
 			"%title%",
-			"You must login as %valid%, your nick is %invalid%."
+			"",
+			"You must login as %valid%, your nick is %invalid%.",
+			"",
+			"Discord: %discord%"
 		],
 		"invalidName.case.title": "Invalid nick case.",
+		"invalidName.long": [
+			"%title%",
+			"",
+			"Due to support for online-mode authentication,",
+			"you must either:",
+			"1. Use online (Mojang) account.",
+			"2. Trim your username to 15 or less characters.",
+			"",
+			"Discord: %discord%"
+		],
+		"invalidName.long.title": "Too long name.",
 		"moving.title": "Wait...",
 		"moving.subtitle": "Do NOT move!",
 		"moving.chat": "Please, wait and do NOT move!",
@@ -51,6 +66,7 @@
 		"captcha.wrong.subtitle": "Try again.",
 		"captcha.wrong.chat": "Wrong CAPTCHA! Try again.",
 		"captcha.failed": "You've failed the verification!",
+		"captcha.rejoin": "Rejoin the server to complete verification.",
 		"register.title": "Register:",
 		"register.subtitle": "/reg <password>",
 		"register.usage": "Register: %syntax%",
@@ -139,6 +155,7 @@
 		"link.token": "Invalid token.",
 		"link.password": "Invalid password.",
 		"link": "Write to Telegram bot to link the account: %link%",
+		"link.online": "Online accounts can't be linked.",
 		"link.already": "You're already linked to the Telegram account.",
 		"link.confirm": "Are you sure you want to link your Minecraft account with %account% Telegram account? %accept%",
 		"link.confirm.tooltip": "Click to link with Telegram account.",
