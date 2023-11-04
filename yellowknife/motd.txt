@@ -1,2 +1,2 @@
-<dark_purple><bold>BromineMC</bold></dark_purple> ▶ <dark_green>Disconnected</dark_green> (BM2.1.4/YK3.0.0)
+<dark_purple><bold>BromineMC</bold></dark_purple> ▶ <dark_green>Disconnected</dark_green> (BM2.1.4/YK3.0.2)
 <white>Самый <light_purple>хрю</light_purple> <white>PvP-сервер. <green>(1.16.5 -> 1.20.2)</green>

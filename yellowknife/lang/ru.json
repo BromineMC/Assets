@@ -1,18 +1,17 @@
 {
-	"name": "Русский",
-	"authors": [
-		"VidTu",
-		"weepl.lpv"
-	],
 	"id": "ru",
+	"name": "Русский",
 	"ids": [
 		"ru",
 		"rpr",
 		"ru_ru"
 	],
+	"authors": [
+		"VidTu"
+	],
 	"locale": "ru",
-	"dateTimeShort": "dd.MM.yy HH:mm (zz)",
-	"dateTimeLong": "dd.MM.yyyy HH:mm:ss (zz)",
+	"shortDateTime": "dd.MM.yy HH:mm (zz)",
+	"fullDateTime": "dd.MM.yyyy HH:mm:ss (zz)",
 	"data": {
 		"error": "Произошла ошибка.",
 		"about": [

@@ -1,10 +1,6 @@
 {
-	"name": "English",
-	"authors": [
-		"VidTu",
-		"weepl.lpv"
-	],
 	"id": "en",
+	"name": "English",
 	"ids": [
 		"en",
 		"en_au",
@@ -17,9 +13,12 @@
 		"enp",
 		"enws"
 	],
+	"authors": [
+		"VidTu"
+	],
 	"locale": "en",
-	"dateTimeShort": "MM/dd/yy HH:mm (zz)",
-	"dateTimeLong": "MM/dd/yyyy HH:mm:ss (zz)",
+	"shortDateTime": "MM/dd/yy HH:mm (zz)",
+	"fullDateTime": "MM/dd/yyyy HH:mm:ss (zz)",
 	"data": {
 		"error": "An error has occured.",
 		"about": [
