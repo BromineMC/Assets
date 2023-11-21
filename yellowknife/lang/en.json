@@ -21,13 +21,6 @@
 	"fullDateTime": "MM/dd/yyyy HH:mm:ss (zz)",
 	"data": {
 		"error": "An error has occured.",
-		"about": [
-			"%implTitle% version %specVersion%.",
-			"Build: %implVersion%.",
-			"Authors: %implVendor%.",
-			"Server: %specTitle%.",
-			"Admins: %specVendor%."
-		],
 		"shutdown": "Proxy shutdown.",
 		"shutdown.restart": "Proxy shutdown. (Autorestart)",
 		"accept": "(▲)",
@@ -71,7 +64,7 @@
 			"",
 			"Please, ensure your system",
 			"time is correct, and try to",
-			"login again."
+			"login again.",
 			"",
 			"Discord: %discord%"
 		],
