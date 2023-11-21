@@ -43,7 +43,7 @@
 			"",
 			"Discord: %discord%"
 		],
-		"invalidName.case.title": "Invalid nick case.",
+		"invalidName.case.title": "> Invalid Nick Case",
 		"invalidName.long": [
 			"%title%",
 			"",
@@ -54,7 +54,7 @@
 			"",
 			"Discord: %discord%"
 		],
-		"invalidName.long.title": "Too long name.",
+		"invalidName.long.title": "> Too Long Name",
 		"moving.title": "Wait...",
 		"moving.subtitle": "Do NOT move!",
 		"moving.chat": "Please, wait and do NOT move!",
@@ -63,9 +63,19 @@
 		"captcha.chat": "Type symbols from the picture into chat.",
 		"captcha.wrong.title": "Wrong!",
 		"captcha.wrong.subtitle": "Try again.",
-		"captcha.wrong.chat": "Wrong CAPTCHA! Try again.",
-		"captcha.failed": "You've failed the verification!",
+		"captcha.wrong.chat": "Wrong CAPTCHA. Try again.",
+		"captcha.failed": "You've failed the verification.",
 		"captcha.rejoin": "Rejoin the server to complete verification.",
+		"captcha.signature": [
+			"%title%",
+			"",
+			"Please, ensure your system",
+			"time is correct, and try to",
+			"login again."
+			"",
+			"Discord: %discord%"
+		],
+		"captcha.signature.title": "> Invalid Message Signature",
 		"register.title": "Register:",
 		"register.subtitle": "/reg <password>",
 		"register.usage": "Register: %syntax%",

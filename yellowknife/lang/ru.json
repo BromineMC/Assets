@@ -37,7 +37,7 @@
 			"",
 			"Discord: %discord%"
 		],
-		"invalidName.case.title": "Неверный регистр ника.",
+		"invalidName.case.title": "> Неверный регистр ника",
 		"invalidName.long": [
 			"%title%",
 			"",
@@ -48,7 +48,7 @@
 			"",
 			"Discord: %discord%"
 		],
-		"invalidName.long.title": "Слишком длинный ник.",
+		"invalidName.long.title": "> Слишком длинный ник",
 		"moving.title": "Подождите...",
 		"moving.subtitle": "НЕ двигайтесь!",
 		"moving.chat": "Пожалуйста, подождите и НЕ двигайтесь!",
@@ -57,9 +57,19 @@
 		"captcha.chat": "Введите символы с картинки в чат.",
 		"captcha.wrong.title": "Неверно!",
 		"captcha.wrong.subtitle": "Попробуйте снова.",
-		"captcha.wrong.chat": "Неверная КАПЧА! Попробуйте снова.",
-		"captcha.failed": "Вы не прошли верификацию!",
+		"captcha.wrong.chat": "Неверная КАПЧА. Попробуйте снова.",
+		"captcha.failed": "Вы не прошли верификацию.",
 		"captcha.rejoin": "Перезайдите на сервер для завершения верификации.",
+		"captcha.signature": [
+			"%title%",
+			"",
+			"Пожалуйста, убедитесь, что системное",
+			"время верное и попробуйте",
+			"зайти снова."
+			"",
+			"Discord: %discord%"
+		],
+		"captcha.signature.title": "> Неверная подпись сообщения",
 		"register.title": "Регистрация:",
 		"register.subtitle": "/reg <пароль>",
 		"register.usage": "Регистрация: %syntax%",
