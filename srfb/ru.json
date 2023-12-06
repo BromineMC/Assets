@@ -43,6 +43,8 @@
 		],
 		"shutdown": "Сервер выключен.",
 		"shutdown.restart": "Сервер выключен. (Авторестарт)",
+		"scheduledstop.stop": "Выключение...",
+		"scheduledstop.waiting": "Выключение через: %time%",
 		"footer": [
 			"Онлайн: %online% | Пинг: %ping%мс.",
 			"TPS: %tps% | MSPT: %mspt%",

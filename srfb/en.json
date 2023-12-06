@@ -48,6 +48,8 @@
 			"Admins: %specVendor%",
 			"Translators: %translators%"
 		],
+		"scheduledstop.stop": "Stopping...",
+		"scheduledstop.waiting": "Stopping in: %time%",
 		"shutdown": "Server shutdown.",
 		"shutdown.restart": "Server shutdown. (Autorestart)",
 		"footer": [
