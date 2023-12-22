@@ -22,15 +22,34 @@
 		"unknownCommand": "Неизвестная команда.",
 		"brigadier.password": "пароль",
 		"player.null": "Игрок не найден.",
+		"invalidName.short": [
+			"%title%",
+			"",
+			"Ваш ник очень короткий. Пожалуйста, используйте как минимум %min% символов в своем нике.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"invalidName.short.title": "> Слишком короткий ник",
+		"invalidName.characters": [
+			"%title%",
+			"",
+			"В вашем нике содержатся неверные символы. Вы можете использовать только '%characters%' в своём нике.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"invalidName.characters.title": "> Неверные символы в нике",
 		"invalidName.case": [
 			"%title%",
 			"",
 			"Вы должны зайти под ником %valid%, ваш ник - %invalid%.",
 			"",
-			"Discord: %discord%"
+			"Discord: %discord%",
+			"Telegram: %telegram%"
 		],
 		"invalidName.case.title": "> Неверный регистр ника",
-		"invalidName.long": [
+		"invalidName.offlineLong": [
 			"%title%",
 			"",
 			"Из-за поддержки авторизации через лицензионные аккаунты",
@@ -38,9 +57,82 @@
 			"1. Использовать лицензионный (Mojang) аккаунт.",
 			"2. Обрезать свой ник до 15 или менее символов.",
 			"",
-			"Discord: %discord%"
+			"Discord: %discord%",
+			"Telegram: %telegram%"
 		],
-		"invalidName.long.title": "> Слишком длинный ник",
+		"invalidName.offlineLong.title": "> Слишком длинный ник",
+		"unsupported.version": [
+			"%title%",
+			"",
+			"Эта версия не поддерживается. Вы не сможете играть на сервере с неё. Пожалуйста, используйте %minVersion% -> %maxVersion%.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"unsupported.version.title": "> Неподдерживаемая версия",
+		"unsupported.legacy": [
+			"%title%",
+			"",
+			"Вы используете устаревшую версию. Эта версия будет работать, но любые проблемы не будут исправлены. Пожалуйста, используйте %minVersion% -> %maxVersion%.",
+			"",
+			"%continue%",
+			"%quit%",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"unsupported.legacy.title": "> Старая версия",
+		"unsupported.legacy.continue": "[Продолжить]",
+		"unsupported.legacy.continue.tooltip": [
+			"Нажмите, чтобы зайти на сервер в любом случае.",
+			"Внимание: Баги, вылеты и другие проблемы не будут исправлены для этой версии."
+		],
+		"unsupported.legacy.quit": "[Выйти]",
+		"unsupported.legacy.quit.tooltip": "Нажмите, чтобы выйти с сервера.",
+		"unsupported.cheatForge": [
+			"%title%",
+			"",
+			"Эта версия Forge имеет баг, который предоставляет нечестное преимущество в PvP. Для предотвращения ложных банов и обвинений в читах, вы не сможете зайти с этой версии.",
+			"",
+			"Этот баг влияет на Minecraft Forge для %minVersion% -> %maxVersion%. Больше информации на: %info%",
+			"",
+			"Пожалуйста, используйте другой загрузчик модов (например, Fabric и Quilt), другую версию Minecraft или ванильный (немодифицированный) клиент. Если вы всё ещё хотите использовать Forge, скачайте и установите мод %mod%.",
+			"Modrinth: %modrinth%",
+			"GitHub: %github%",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"unsupported.cheatForge.title": "> Неподдерживаемая версия Minecraft Forge",
+		"captcha.signature": [
+			"%title%",
+			"",
+			"Пожалуйста, убедитесь, что системное время верное и попробуйте зайти снова.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"captcha.signature.title": "> Неверная подпись сообщения",
+		"captcha.failed": [
+			"%title%",
+			"",
+			"Вы не прошли верификацию. Попробуйте снова.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"captcha.failed.title": "> Ошибка верификации",
+		"telegram.error": [
+		    "%title%",
+		    "",
+			"Не удалось отправить сообщение в Telegram. Возможно, вы заблокировали бота %bot%.",
+			"",
+			"%discord%",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"telegram.error.title": "> Ошибка Telegram",
 		"moving.title": "Подождите...",
 		"moving.subtitle": "НЕ двигайтесь!",
 		"moving.chat": "Пожалуйста, подождите и НЕ двигайтесь!",
@@ -50,18 +142,7 @@
 		"captcha.wrong.title": "Неверно!",
 		"captcha.wrong.subtitle": "Попробуйте снова.",
 		"captcha.wrong.chat": "Неверная КАПЧА. Попробуйте снова.",
-		"captcha.failed": "Вы не прошли верификацию.",
 		"captcha.rejoin": "Перезайдите на сервер для завершения верификации.",
-		"captcha.signature": [
-			"%title%",
-			"",
-			"Пожалуйста, убедитесь, что системное",
-			"время верное и попробуйте",
-			"зайти снова.",
-			"",
-			"Discord: %discord%"
-		],
-		"captcha.signature.title": "> Неверная подпись сообщения",
 		"register.title": "Регистрация:",
 		"register.subtitle": "/reg <пароль>",
 		"register.usage": "Регистрация: %syntax%",
@@ -83,56 +164,6 @@
 		"telegram.title": "Telegram-привязка:",
 		"telegram.subtitle": "Подтвердите вход.",
 		"telegram.chat": "Подтвердите вход через Telegram-бота.",
-		"telegram.error": [
-			"Не удалось отправить сообщение в Telegram.",
-			"Возможно, вы заблокировали бота %bot%.",
-			"",
-			"%discord%",
-			"",
-			"Discord: %discord%",
-			"%nick%/%uuid%",
-			"%timestamp%"
-		],
-		"discord.title": "Discord-привязка:",
-		"discord.subtitle": "Подтвердите вход.",
-		"discord.chat": "Подтвердите вход через Discord-бота.",
-		"discord.error": [
-			"Не удалось отправить сообщение в Discord.",
-			"Возможно, вы заблокировали бота или не находитесь с ним на одном сервере.",
-			"",
-			"Discord: %discord%",
-			"%nick%/%uuid%",
-			"%timestamp%"
-		],
-		"legacyVersion": [
-			"%title%",
-			"",
-			"Вы используете устаревшую версию. Эта версия не поддерживается. Пожалуйста, используйте %minVersion% -> %maxVersion%.",
-			"",
-			"%continue%",
-			"%quit%"
-		],
-		"legacyVersion.title": "> Старая версия",
-		"legacyVersion.continue": "[Продолжить]",
-		"legacyVersion.continue.tooltip": [
-			"Нажмите, чтобы зайти на сервер в любом случае.",
-			"Внимание: Баги, вылеты и другие проблемы не будут исправлены для этой версии."
-		],
-		"legacyVersion.quit": "[Выйти]",
-		"legacyVersion.quit.tooltip": "Нажмите, чтобы выйти с сервера.",
-		"cheatForge": [
-			"%title%",
-			"",
-			"Эта версия Forge имеет баг, который предоставляет нечестное преимущество в PvP.",
-			"Для предотвращения ложных банов и обвинений в читах, вы не сможете зайти с этой версии.",
-			"",
-			"Этот баг влияет на Minecraft Forge для %versions%.",
-			"Больше информации на: %info%",
-			"",
-			"Пожалуйста, используйте другой загрузчик модов (например, Fabric и Quilt), другую версию Minecraft или ванильный (немодифицированный) клиент.",
-			"Если вы всё ещё хотите использовать Forge, скачайте и установите этот мод: %mod%"
-		],
-		"cheatForge.title": "> Неподдерживаемая версия Minecraft Forge",
 		"queue.deprecated": "Ваш приоритет в очереди понижен, потому что вы используете устаревшую версию. Пожалуйста, используйте %minVersion% -> %maxVersion% или купите ранг, чтобы повысить приоритет.",
 		"queue.title": "Очередь:",
 		"queue.subtitle": "Позиция: %position%",

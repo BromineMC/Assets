@@ -1,2 +1,2 @@
-<dark_purple><bold>BromineMC</bold></dark_purple> ▶ <dark_green>WinTerCraft 🐽</dark_green> (BM2.2.0/YK3.0.5)
-<white>Самый <light_purple>хрю</light_purple> <white>PvP-сервер. <green>(1.16.5 -> 1.20.2)</green>
+<dark_purple><bold>BromineMC</bold></dark_purple> ▶ <dark_green>ПивнойПузян1337</dark_green> (BM2.2.0/YK3.0.8)
+<white>Самый <light_purple>хрю</light_purple> <white>PvP-сервер. <green>(%minVersion% -> %maxVersion%)</green>

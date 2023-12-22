@@ -29,15 +29,34 @@
 		"unknownCommand": "Unknown command.",
 		"brigadier.password": "password",
 		"player.null": "Player not found.",
+		"invalidName.short": [
+			"%title%",
+			"",
+			"Your nick is too short. Please, use at least %min% characters in your nick.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"invalidName.short.title": "> Too Short Nick",
+		"invalidName.characters": [
+			"%title%",
+			"",
+			"Your nick contains invalid characters. You can only use '%characters%' characters in your nick.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"invalidName.characters.title": "> Invalid Nick Characters",
 		"invalidName.case": [
 			"%title%",
 			"",
 			"You must login as %valid%, your nick is %invalid%.",
 			"",
-			"Discord: %discord%"
+			"Discord: %discord%",
+			"Telegram: %telegram%"
 		],
 		"invalidName.case.title": "> Invalid Nick Case",
-		"invalidName.long": [
+		"invalidName.offlineLong": [
 			"%title%",
 			"",
 			"Due to support for online-mode authentication,",
@@ -45,9 +64,80 @@
 			"1. Use online (Mojang) account.",
 			"2. Trim your username to 15 or less characters.",
 			"",
-			"Discord: %discord%"
+			"Discord: %discord%",
+			"Telegram: %telegram%"
 		],
-		"invalidName.long.title": "> Too Long Name",
+		"invalidName.offlineLong.title": "> Too Long Offline Name",
+		"unsupported.version": [
+			"%title%",
+			"",
+			"This version is not supported. You won't be able to join the server with it. Please, use %minVersion% -> %maxVersion%.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"unsupported.version.title": "> Unsupported Version",
+		"unsupported.legacy": [
+			"%title%",
+			"",
+			"You're using deprecated version. This version will work, but any problems related to it will not be fixed. Please, use %minVersion% -> %maxVersion%.",
+			"",
+			"%continue%",
+			"%quit%",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"unsupported.legacy.title": "> Legacy Version",
+		"unsupported.legacy.continue": "[Continue Anyway]",
+		"unsupported.legacy.continue.tooltip": [
+			"Click to join the server anyway.",
+			"Note: Any bugs, crashes and problems won't be fixed for this version."
+		],
+		"unsupported.legacy.quit": "[Quit]",
+		"unsupported.legacy.quit.tooltip": "Click to quit the server.",
+		"unsupported.cheatForge": [
+			"%title%",
+			"",
+			"This version of Forge contains a bug that provides an unfair advantage for PvP. To prevent false bans and cheat occusations, you won't be able to join using this version.",
+			"",
+			"This bug affects Minecraft Forge for %minVersion% -> %maxVersion%. More info: %info%",
+			"",
+			"Please, use another mod loader (e.g. Fabric or Quilt), another Minecraft version, or the vanilla (unmodified) client. If you still want to use Forge, download and install %mod% mod.",
+			"Modrinth: %modrinth%",
+			"GitHub: %github%",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"unsupported.cheatForge.title": "> Unsupported Minecraft Forge Version",
+		"captcha.signature": [
+			"%title%",
+			"",
+			"Please, ensure your system time is correct, and try to login again.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"captcha.signature.title": "> Invalid Message Signature",
+		"captcha.failed": [
+			"%title%",
+			"",
+			"You've failed the anti-bot verification. Try again.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"captcha.failed.title": "> Verification Failed",
+		"telegram.error": [
+			"%title%",
+			"",
+			"Unable to send the message via Telegram. You've probably blocked %bot% bot.",
+			"",
+			"Discord: %discord%",
+			"Telegram: %telegram%"
+		],
+		"telegram.error.title": "> Telegram Error",
 		"moving.title": "Wait...",
 		"moving.subtitle": "Do NOT move!",
 		"moving.chat": "Please, wait and do NOT move!",
@@ -57,18 +147,7 @@
 		"captcha.wrong.title": "Wrong!",
 		"captcha.wrong.subtitle": "Try again.",
 		"captcha.wrong.chat": "Wrong CAPTCHA. Try again.",
-		"captcha.failed": "You've failed the verification.",
 		"captcha.rejoin": "Rejoin the server to complete verification.",
-		"captcha.signature": [
-			"%title%",
-			"",
-			"Please, ensure your system",
-			"time is correct, and try to",
-			"login again.",
-			"",
-			"Discord: %discord%"
-		],
-		"captcha.signature.title": "> Invalid Message Signature",
 		"register.title": "Register:",
 		"register.subtitle": "/reg <password>",
 		"register.usage": "Register: %syntax%",
@@ -90,54 +169,6 @@
 		"telegram.title": "Telegram link:",
 		"telegram.subtitle": "Confirm login.",
 		"telegram.chat": "Confirm login via Telegram bot.",
-		"telegram.error": [
-			"Unable to send the message via Telegram.",
-			"You've blocked %bot% bot, probably.",
-			"",
-			"Discord: %discord%",
-			"%nick%/%uuid%",
-			"%timestamp%"
-		],
-		"discord.title": "Discord link:",
-		"discord.subtitle": "Confirm login.",
-		"discord.chat": "Confirm login via Discord link.",
-		"discord.error": [
-			"Unable to send the message via Discord.",
-			"You've blocked the bot or not in the same server with the bot, probably.",
-			"",
-			"%discord%",
-			"%nick%/%uuid%",
-			"%timestamp%"
-		],
-		"legacyVersion": [
-			"%title%",
-			"",
-			"You're using deprecated version. This version is not supported. Please, use %minVersion% -> %maxVersion%.",
-			"",
-			"%continue%",
-			"%quit%"
-		],
-		"legacyVersion.title": "> Legacy Version",
-		"legacyVersion.continue": "[Continue Anyway]",
-		"legacyVersion.continue.tooltip": [
-			"Click to join the server anyway.",
-			"Note: Any bugs, crashes and problems won't be fixed for this version."
-		],
-		"legacyVersion.quit": "[Quit]",
-		"legacyVersion.quit.tooltip": "Click to quit the server.",
-		"cheatForge": [
-			"%title%",
-			"",
-			"This version of Forge contains a bug that provides an unfair advantage for PvP.",
-			"To prevent false bans and cheat occusations, you won't be able to join using this version.",
-			"",
-			"This bug affects Minecraft Forge for %versions%.",
-			"More info: %info%",
-			"",
-			"Please, use another mod loader (e.g. Fabric or Quilt), another Minecraft version, or the vanilla (unmodified) client.",
-			"If you still want to use Forge, download and install this mod: %mod%"
-		],
-		"cheatForge.title": "> Unsupported Minecraft Forge Version",
 		"queue.deprecated": "Your queue priority has been lowered because you're using deprecated version. Please, use %minVersion% -> %maxVersion% or buy a rank to have more priority.",
 		"queue.title": "Queue:",
 		"queue.subtitle": "Position: %position%.",
