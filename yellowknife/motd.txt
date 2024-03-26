@@ -1,2 +1,0 @@
-<dark_purple><bold>BromineMC</bold></dark_purple> ▶ <dark_green>ПивнойПузян1337</dark_green> (BM2.2.0/YK3.0.8)
-<white>Самый <light_purple>хрю</light_purple> <white>PvP-сервер. <green>(%minVersion% -> %maxVersion%)</green>
