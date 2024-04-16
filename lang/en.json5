@@ -327,7 +327,7 @@
     "unsupported.legacy": [
       "%title%",
       "",
-      "You're using deprecated version. Any problems won't be fixed. Please, use %min% -> %max%.",
+      "You're using an old version. Any problems won't be fixed. Use %min% -> %max%.",
       "%continue%",
       "%quit%",
       "",
@@ -339,10 +339,19 @@
     "unsupported.legacy.continue.tooltip": "Click to join the server anyway.",
     "unsupported.legacy.quit": "[Quit]",
     "unsupported.legacy.quit.tooltip": "Click to quit the server.",
+    "unsupported.legacy.ancient": [
+      "%title%",
+      "",
+      "Because of that, you'll have LOWEST queue priority, PROBLEMS with anti-cheat, inventory, mods, etc. This won't be fixed. Update the game.",
+      "",
+      "%continue%",
+      "%quit%"
+    ],
+    "unsupported.legacy.ancient.title": "> RESTRICTED VERSION",
     "unsupported.legacy.nag": [
       "%title%",
       "",
-      "Your queue priority will be lowered because of your version.",
+      "Your queue priority and server abilities will be lowered because of your version.",
       "",
       "%continue%",
       "%quit%"
