@@ -213,7 +213,7 @@
     // Login
     "password.short": "This password is too short. Please, use at least %min% characters.",
     "password.long": "This password is too long. Please, use at most %max% characters.",
-    "password.cracked": "This password is unsafe. It has been found online.",
+    "password.cracked": "This password is unsafe. It has been found online. If you're using this password anywhere else, change it immediately.",
     "register.title": "Register:",
     "register.subtitle": "/reg <password>",
     "register.usage": "Register: %syntax%",
