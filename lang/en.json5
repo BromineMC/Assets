@@ -155,11 +155,9 @@
     "unsupported.forge": [
       "%title%",
       "",
-      "This version of Forge contains a bug that provides an unfair advantage for PvP.",
-      "To prevent false bans and cheat accusations, you won't be able to join using this version.",
+      "This version of Forge contains a bug that provides an unfair advantage for PvP. To prevent false bans and cheat accusations, you won't be able to join using this version.",
       "",
-      "This bug affects Minecraft Forge for %min% -> %max%.",
-      "More info: %info%",
+      "This bug affects Minecraft Forge for %min% -> %max%. More info: %info%",
       "",
       "Please, use another mod loader (e.g. Fabric or Quilt), another Minecraft version, or the vanilla (unmodified) client.",
       "",
@@ -194,13 +192,18 @@
     "captcha.signature": [
       "%title%",
       "",
-      "Please, ensure your SYSTEM time is correct, and try to login again.",
-      "Setting up time guide: %time%",
+      "Looks like your SYSTEM TIME is not correct.",
+      "Try:",
+      "1. Checking time in your system settings. (time of your Windows, macOS, Linux, etc.)",
+      "2. Checking your timezone.",
+      "3. Enabling automatic time synchronization in your system settings",
+      "4. Check your time against online time service. (for example, with: %time%)",
+      "5. Restarting the game and the system.",
       "",
       "Discord: %discord%",
       "Information: %rulestorm%"
     ],
-    "captcha.signature.title": "> Invalid Message Signature",
+    "captcha.signature.title": "> Invalid Message Signature Time",
     "captcha.rejoin": [
       "%title%",
       "",
@@ -339,15 +342,33 @@
     "unsupported.legacy.continue.tooltip": "Click to join the server anyway.",
     "unsupported.legacy.quit": "[Quit]",
     "unsupported.legacy.quit.tooltip": "Click to quit the server.",
-    "unsupported.legacy.ancient": [
+    "unsupported.legacy.ancient.first": [
       "%title%",
       "",
-      "Because of that, you'll have LOWEST queue priority, PROBLEMS with anti-cheat, inventory, mods, etc. This won't be fixed. Update the game.",
+      "Because of your version, you'll have LOWEST queue priority, PROBLEMS with the anti-cheat, inventory, mods, etc. This won't be fixed. Update the game.",
       "",
       "%continue%",
       "%quit%"
     ],
-    "unsupported.legacy.ancient.title": "> RESTRICTED VERSION",
+    "unsupported.legacy.ancient.first.title": "> RESTRICTED VERSION",
+    "unsupported.legacy.ancient.second": [
+      "%title%",
+      "",
+      "Because of your version, you'll have PROBLEMS WITH THE ANTI-CHEAT. This won't be fixed and ban appeals may be ignored.",
+      "",
+      "%continue%",
+      "%quit%"
+    ],
+    "unsupported.legacy.ancient.second.title": "> Anti-cheat Issues",
+    "unsupported.legacy.ancient.third": [
+      "%title%",
+      "",
+      "Because of your version, you'll have problems with managing your inventory, including FREQUENT GHOST ITEMS. This won't be fixed.",
+      "",
+      "%continue%",
+      "%quit%"
+    ],
+    "unsupported.legacy.ancient.third.title": "> Ghost Items",
     "unsupported.legacy.nag": [
       "%title%",
       "",
