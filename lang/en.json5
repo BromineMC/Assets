@@ -116,6 +116,7 @@
       "",
       "Your nick is too short.",
       "Please, use at least %min% characters in your nick.",
+      "Please, change your nick.",
       "",
       "Discord: %discord%",
       "Information: %rulestorm%"
@@ -126,6 +127,7 @@
       "",
       "Your nick is too long.",
       "Please, use at most %max% characters in your nick.",
+      "Please, change your nick.",
       "",
       "Discord: %discord%",
       "Information: %rulestorm%"
@@ -136,6 +138,7 @@
       "",
       "Your nick contains invalid characters.",
       "You can only use '%characters%' characters in your nick.",
+      "Please, change your nick.",
       "",
       "Discord: %discord%",
       "Information: %rulestorm%"
@@ -155,11 +158,14 @@
     "unsupported.forge": [
       "%title%",
       "",
-      "This version of Forge contains a bug that provides an unfair advantage for PvP. To prevent false bans and cheat accusations, you won't be able to join using this version.",
+      "This version of Forge contains a bug that provides an unfair advantage for PvP.",
+      "To prevent false bans and cheat accusations, you won't be able to join using this version.",
       "",
-      "This bug affects Minecraft Forge for %min% -> %max%. More info: %info%",
+      "This bug affects Minecraft Forge for %min% -> %max%.",
+      "More info: %info%",
       "",
-      "Please, use another mod loader (e.g. Fabric or Quilt), another Minecraft version, or the vanilla (unmodified) client.",
+      "Please, use another mod loader (e.g. Fabric or Quilt),",
+      "another Minecraft version, or the vanilla (unmodified) client.",
       "",
       "If you still want to use Forge, download and install %mod% mod.",
       "Modrinth: %modrinth%",
@@ -170,53 +176,46 @@
     ],
     "unsupported.forge.title": "> Unsupported Minecraft Forge Version",
     // Verify
-    "moving.title": "Wait...",
-    "moving.subtitle": "Do NOT move!",
-    "moving.chat": "Please, wait and do NOT move!",
+    "verify.title": "Wait a bit...",
+    "verify.subtitle": "Avoid moving.",
+    "verify.chat": "Please, wait a bit... Avoding moving and looking around.",
     "captcha.title": "CAPTCHA:",
     "captcha.subtitle": "Type symbols into chat.",
-    "captcha.chat": "Type symbols from the picture into chat.",
+    "captcha.chat": "Please, type symbols from the picture into chat to verify you're not a robot.",
     "captcha.wrong.title": "Wrong!",
     "captcha.wrong.subtitle": "Try again.",
-    "captcha.wrong.chat": "Wrong CAPTCHA. Try again.",
-    "captcha.failed": [
+    "captcha.wrong.chat": "You haven't entered the symbols from the picture correctly. Please, try again.",
+    "verify.failed": [
       "%title%",
       "",
-      "You've failed the anti-bot verification.",
-      "Try again.",
+      "You've failed the verification.",
+      "Please, try again.",
+      "",
+      "How to fix this in most cases:",
+      "1. Really, try again.",
+      "2. Ensure you're entering the CAPTCHA correctly.",
+      "3. Delete prohibited mods and cheats/hacks.",
+      "4. Ensure your system time AND timezone is correct.",
+      "5. Contact the stuff.",
       "",
       "Discord: %discord%",
       "Information: %rulestorm%"
     ],
-    "captcha.failed.title": "> Verification Failed",
-    "captcha.signature": [
+    "verify.failed.title": "> Verification Failed",
+    "verify.rejoin": [
       "%title%",
       "",
-      "Looks like your SYSTEM TIME is not correct.",
-      "Try:",
-      "1. Checking time in your system settings. (time of your Windows, macOS, Linux, etc.)",
-      "2. Checking your timezone.",
-      "3. Enabling automatic time synchronization in your system settings",
-      "4. Check your time against online time service. (for example, with: %time%)",
-      "5. Restarting the game and the system.",
+      "Verification is complete.",
+      "Please, rejoin the server.",
       "",
       "Discord: %discord%",
       "Information: %rulestorm%"
     ],
-    "captcha.signature.title": "> Invalid Message Signature Time",
-    "captcha.rejoin": [
-      "%title%",
-      "",
-      "Rejoin the server to complete verification.",
-      "",
-      "Discord: %discord%",
-      "Information: %rulestorm%"
-    ],
-    "captcha.rejoin.title": "> Rejoin",
+    "verify.rejoin.title": "> Rejoin",
     // Login
     "password.short": "This password is too short. Please, use at least %min% characters.",
     "password.long": "This password is too long. Please, use at most %max% characters.",
-    "password.cracked": "This password is unsafe. It has been found online. If you're using this password anywhere else, change it immediately.",
+    "password.cracked": "This password is unsafe, because it has been found online. If you're using this password anywhere else, change it immediately.",
     "register.title": "Register:",
     "register.subtitle": "/reg <password>",
     "register.usage": "Register: %syntax%",
@@ -234,6 +233,7 @@
       "%title%",
       "",
       "You didn't login within the allotted time.",
+      "Please, try again.",
       "",
       "Discord: %discord%",
       "Information: %rulestorm%"
@@ -243,6 +243,7 @@
       "%title%",
       "",
       "You've been blocked for password/token guessing.",
+      "If you forgot yours, contact the stuff.",
       "",
       "Discord: %discord%",
       "Information: %rulestorm%"
@@ -253,6 +254,7 @@
       "",
       "Registered nick: %valid%",
       "Your nick: %invalid%",
+      "Please, change your nick case.",
       "",
       "Discord: %discord%",
       "Information: %rulestorm%"
@@ -268,6 +270,7 @@
       "",
       "Unable to send the message via Telegram.",
       "You've probably blocked %bot% bot.",
+      "Unblock it and try again.",
       "",
       "Discord: %discord%",
       "Information: %rulestorm%"
@@ -342,42 +345,6 @@
     "unsupported.legacy.continue.tooltip": "Click to join the server anyway.",
     "unsupported.legacy.quit": "[Quit]",
     "unsupported.legacy.quit.tooltip": "Click to quit the server.",
-    "unsupported.legacy.ancient.first": [
-      "%title%",
-      "",
-      "Because of your version, you'll have LOWEST queue priority, PROBLEMS with the anti-cheat, inventory, mods, etc. This won't be fixed. Update the game.",
-      "",
-      "%continue%",
-      "%quit%"
-    ],
-    "unsupported.legacy.ancient.first.title": "> RESTRICTED VERSION",
-    "unsupported.legacy.ancient.second": [
-      "%title%",
-      "",
-      "Because of your version, you'll have PROBLEMS WITH THE ANTI-CHEAT. This won't be fixed and ban appeals may be ignored.",
-      "",
-      "%continue%",
-      "%quit%"
-    ],
-    "unsupported.legacy.ancient.second.title": "> Anti-cheat Issues",
-    "unsupported.legacy.ancient.third": [
-      "%title%",
-      "",
-      "Because of your version, you'll have problems with managing your inventory, including FREQUENT GHOST ITEMS. This won't be fixed.",
-      "",
-      "%continue%",
-      "%quit%"
-    ],
-    "unsupported.legacy.ancient.third.title": "> Ghost Items",
-    "unsupported.legacy.nag": [
-      "%title%",
-      "",
-      "Your queue priority and server abilities will be lowered because of your version.",
-      "",
-      "%continue%",
-      "%quit%"
-    ],
-    "unsupported.legacy.nag.title": "> Low Queue Priority",
     // Queue
     "queue.title": "Join Queue:",
     "queue.subtitle": "Position: %position%.",
@@ -393,7 +360,7 @@
       "",
       "You're in join queue. Your position: %position%.",
       "Your queue priority has been lowered because you're using an old version.",
-      "Please, use %min% -> %max% to restore normal queue prioerity.",
+      "Please, use %min% -> %max% to restore normal queue priority.",
       "Rank %rank% and higher ranks have high-priority queue on any version.",
       "Buy at: %shop%",
       ""
@@ -411,7 +378,7 @@
       "Information: %rulestorm%"
     ],
     "logout.title": "> Logout",
-    // Changepass
+    // Changepassword
     "changepassword.usage": "Change password: %syntax%",
     "changepassword.syntax": "/changepassword <old_password> <new_password>",
     "changepassword": "Password has been changed.",
