@@ -310,7 +310,7 @@
     "telegram.2fa.syntax": "/2fa <nick/UUID> [always/session/never]",
     "telegram.2fa.invalid": "Unknown 2FA mode.",
     "telegram.2fa.true": "Always",
-    "telegram.2fa.null": "On New Session",
+    "telegram.2fa.null": "When Entering Password",
     "telegram.2fa.false": "Never",
     "telegram.2fa.select": "Select the 2FA mode:",
     "telegram.2fa": "2FA mode for %name%/%uuid% has been changed to %mode%. Use %command% to change it.",

@@ -310,7 +310,7 @@
     "telegram.2fa.syntax": "/2fa <nick/UUID> [always/session/never]",
     "telegram.2fa.invalid": "Неизвестный режим двухэтапной авторизации.",
     "telegram.2fa.true": "Всегда",
-    "telegram.2fa.null": "При новой сессии",
+    "telegram.2fa.null": "При вводе пароля",
     "telegram.2fa.false": "Никогда",
     "telegram.2fa.select": "Выберите режим двухэтапной авторизации:",
     "telegram.2fa": "Режим двухэтапной авторизации для %name%/%uuid% был изменён на %mode%. Используйте %command% для изменения.",
